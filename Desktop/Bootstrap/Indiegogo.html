@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Elige tu plataforma | Indiegogo</title>
+
+    <style type="text/css">
+
+  #imagen>div
+  {
+    position: relative;
+    bottom:25px;
+    color:#fff;
+    background-color:#000;
+    padding:2px 10px;
+    opacity:0.5;
+    font-weight:bold;
+  }
+</style>
+
   </head>
   <body>
 
@@ -89,14 +104,15 @@
 <!--Carrusel de fotos. -->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://placeimg.com/1280/480/girls" alt="First slide">
+    <div class="carousel-item active" id="imagen">
+      <img class="d-block w-100" src="https://placeimg.com/1280/480/nature" alt="First slide">
+       <div >Texto sobre la imagen</div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://placeimg.com/1280/480/people" alt="Second slide">
+      <img class="d-block w-100" src="https://placeimg.com/1280/480/Nature" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://placeimg.com/1280/480/People" alt="Third slide">
+      <img class="d-block w-100" src="https://placeimg.com/1280/480/NATURE" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -143,7 +159,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <i class="material-icons" style="font-size:48px;color:purple;">wb_incandescent</i>
+      <i class="material-icons" style="font-size:48px;color:purple;" >wb_incandescent</i>
       <h5 style="text-align:center;">La innovación comienza aquí.</h5>
       <p style="text-align:center;">Con campañas de crowdfunding y productos que se envían ahora, Indiegogo es la fuente de productos ingeniosos que ayudan para que tu vida sea más simple.</p>
     </div>
@@ -160,13 +176,19 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+<--
 <!-- Parte inferior del texto-->
 
 
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <div class="card" >
+      <div class="card" id="imagen" >
   <img class="card-img-top" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_limit,w_695/v1519753788/ts18a7vsh57qpyeanpq5.jpg" alt="Card image cap">
 
   </div>
@@ -193,11 +215,19 @@
     <div class="col-sm">
       <div class="card" >
   <img class="card-img-top" src="https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/c_limit,w_695/v1519754690/b0fpsww4wuy99fanmqm1.jpg" alt="Card image cap">
-
   </div>
     </div>
   </div>
 </div>
+<br>
+<br>
+
+<!-- parte 2 -->
+<div>
+<h3 align="center">¿Qué categorías te interesan?</h3>
+<p align="center">Descubre proyectos ideales para ti y obtén grandes recomendaciones cuando selecionas tus intereses</p>
+</div>
+
 
 
     <!-- Optional JavaScript -->
